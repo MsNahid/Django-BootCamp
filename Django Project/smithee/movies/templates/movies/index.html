@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<title>Movies</title>
+
+<img style="width:60px" src="https://cdn.iconscout.com/icon/free/png-512/django-2-282855.png" alt="django logo">
+
+<h1>Films by {{ director }}</h1>
+
+<ul>
+{% for movie in movies %}
+  <li>{{ movie.year}} - {{ movie.title }}</li>
+{% endfor %}
+</ul>

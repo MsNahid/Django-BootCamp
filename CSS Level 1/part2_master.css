@@ -1,0 +1,25 @@
+ /* selected tag{
+     property: value;
+
+ } */
+
+ body{
+     background: url(https://www.gettyimages.com/detail/photo/library-and-books-royalty-free-image/1018773878?adppopup=true);
+ }
+
+div{ 
+    background-color: red;
+    border-color: blue;
+    border-width: 2px; 
+    border-style: double;
+}
+
+p{
+    color: yellow;
+
+}
+ 
+span{
+    background: red;
+    color: black;
+}
