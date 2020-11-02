@@ -20,7 +20,7 @@ try:
 except IOError: #use only except for all kind of errorx
     print("ERROR: COULD NOT FIND FILE OR READ DATA!")
 finally:
-    print("I always work, no matter what is happing or happened!")
+    print("I always work, no matter what is happing or happened!") 
     f.close()
 
 print("Hello World!!")
